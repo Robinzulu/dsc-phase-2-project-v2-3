@@ -13,7 +13,7 @@ G-One Limited will analyze the King's County home sales dataset to identify key 
 
 We obtained the dataset for our analysis from the CSV file “kc_house_data.csv” containing data on over 21,000 housing units including: 
 
-#### * id - Unique identifier for a house
+* id - Unique identifier for a house
 * date - Date house was sold
 * price - Sale price (prediction target)
 * bedrooms - Number of bedrooms
@@ -37,6 +37,7 @@ We obtained the dataset for our analysis from the CSV file “kc_house_data.csv�
 
 ## Method
 We prepared our data for analysis by first importing the dataset and the libraries to facilitate analysis, then examining the contents of the dataset and cleaning the data to eliminate any missing values. The analysis deployed in this project uses multiple and  simple linear regression methods to develop a model of house price using a subset of predictor variables. 
+
 We first developed a baseline model using a simple linear regression method, with price as our independent variable and sqft_living as our feature variable. Subsequent iterations of the model built on this baseline model until our final model which utilized multiple linear regression models, with the log-transformed price “price_log” as the independent variable and  xxxx as feature variables. 
 
 ## Results
