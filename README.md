@@ -1,13 +1,13 @@
-_**KING'S COUNTY HOME SALES DATASET ANALYSIS**_
+# _**KING'S COUNTY HOME SALES DATASET ANALYSIS**_
 
-##Project Overview
+## Project Overview
 This project aims to analyze the housing sales data and provide information on various factors that influence housing prices. The project uses linear regression to infer what factors influence housing prices and by how much.
 
-##Business Problem
+## Business Problem
 
 G-One Limited will analyze the King's County home sales dataset to identify key factors impacting housing prices and help our client choose a home with high resale value. With Insights from the analysis you will be guided in making more informed decisions for profitable real estate transactions.
 
-##Data understanding
+## Data understanding
 
 We obtained the dataset for our analysis from the CSV file “kc_house_data.csv” containing data on over 21,000 housing units including: 
 
@@ -37,10 +37,10 @@ Method
 We prepared our data for analysis by first importing the dataset and the libraries to facilitate analysis, then examining the contents of the dataset and cleaning the data to eliminate any missing values. The analysis deployed in this project uses multiple and  simple linear regression methods to develop a model of house price using a subset of predictor variables. 
 We first developed a baseline model using a simple linear regression method, with price as our independent variable and sqft_living as our feature variable. Subsequent iterations of the model built on this baseline model until our final model which utilized multiple linear regression models, with the log-transformed price “price_log” as the independent variable and  xxxx as feature variables. 
 
-##Results
+## Results
 We compared the R-squared score at each model iteration and witnessed an improvement in our R-squared from approximately 48% in our initial model to 65% in our final model.
 
-##Conclusions
+## Conclusions
 The model provided insights into the various features that affect the price of a house in King's County. Notably, waterfront, grade, and view had the highest impact on the price of houses as houses with waterfronts attracted a price increase of 31.51%,
 
 The following features will improve the pricing of the houses:
@@ -52,7 +52,7 @@ The following features will improve the pricing of the houses:
 ●	Houses without views attract lower prices compared to houses with views. The model demonstrates that a house with a good view attracts a price increase of 3.52%, fair view 8.33%, and excellent view 16.55% increase in price
 ●	Houses with a waterfront attract a price increase of 31.51%
 
-##Recommendations
+## Recommendations
 G-One Limited therefore has the following recommendations for the family to guide their choice of a house in the King's County neighborhood:
 1. They should consider the number of bathrooms
 2. They should consider the number of floors
